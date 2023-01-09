@@ -1,1 +1,1 @@
-I have created a real world ML project which predicts electric power consumption. 
+I have created a real world machine learning project which predicts electric power consumption. 
