@@ -1,0 +1,1 @@
+I have made a Sentiment Analyzer Model using Logistic Regression where I have first extracted the data (reviews) of an APP from Google Play Store and App Store, then I have performed NLP (Natural Language Processing) to convert the text data into numeric vectors, and finally I have use the logistic regression class from scikit learn library to predict the sentiments.
