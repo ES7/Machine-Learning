@@ -1,0 +1,23 @@
+Linear Regression
+
+I have store both the dataset of training and testing in variables
+X and A. Then I have normalize the features and stored it in variables
+train_f and test_f. Labels are stored in varibles Y and Y_test.
+After normalizing the features I have added a column of ones. After this
+I made a function named LinearRegression in which first I assigned theta
+variable to an array of zeros and initialize cost_list variable. This variable
+at the end will show the cost values so we can check wheather it is decreasing
+or not, then I have made cost function and gradient descent. At the end the function
+will return theta and cost_list. Then I have made a graph, checked rmse value and
+accuracy using r2_score function of sci-kit learn library.
+
+Accuracy of my program is 99.99538876832955 %
+
+Polynomial Regression
+
+Most of the coding is same as that of like Linear Regression. In addition
+I have squared the values of both dataset and concatenate the squared values
+with the dataset, then I have normalize the features and did the same as done in
+Linear Regression.
+
+Accuracy of my program is 99.92710293738281 %
