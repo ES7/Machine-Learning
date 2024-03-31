@@ -15,16 +15,11 @@ Machine Learning (ML) is a field of artificial intelligence (AI) that focuses on
 
 **Deep Learning:** Deep learning is a subset of ML that uses **`neural networks`** with many layers (deep neural networks) to learn complex patterns in large amounts of data. It has been particularly successful in tasks like image recognition and natural language processing.
 
-
+## Machine Learning Models
 **Linear Regression**  : For this model I will first split the dependent and independent variables using slicing method of Python.
 Then I will make a function to update the weights, and two more functions to differentiate the cost function with respect to w1 and w0.
 Then I will make a class of Linear Regression, in this class there will be a constructor, predict function, update function and 
 gradient descent function.
-
-
-**Polynomial Regression** : For this I have do same coding as of Linear Regression, in addition I have to square the dataset and concatenate
-it the dataset.
-
 
 **Logistic Regression** :  For this model I will first split the dependent and independent variables using slicing method of Python.
 Then I will make a Sigmoid function so that all values lies between 0 to 1, and a Cost function. Then I will make a class of
